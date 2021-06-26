@@ -1,0 +1,62 @@
+.HeaderBanner {
+    background-color: #c5c5c5;
+    height: 16px;
+    font-size: 12px;
+    font-family: "Rajdhani Medium";
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.4px;
+    padding: 1px 184px;
+    position: relative;
+}
+
+.HeaderBanner span {
+    font-family: "Rajdhani Bold";
+}
+
+.HeaderBanner ul {
+    display: inline-flex;
+    position: absolute;
+    right: 184px;
+    list-style-type: none;
+    align-items: center;
+    height: 16px;
+}
+
+.HeaderBanner li {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 2px;
+    margin-right: 1px;
+}
+
+.HeaderBanner li:nth-child(2) {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Rajdhani Bold";
+    src: url("../../fonts/rajdhani-bold1.ttf");
+}
+
+@font-face {
+    font-family: "Rajdhani Medium";
+    src: url("../../fonts/rajdhani-medium1.ttf");
+}
+
+@font-face {
+    font-family: "Rajdhani";
+    src: url("../../fonts/rajdhani-regular.ttf");
+}
+
+@font-face {
+    font-family: "Rajdhani sem";
+    src: url("../../fonts/rajdhani-semibold1.ttf");
+}
+
+@media (max-width:768px){
+    .HeaderBanner ul{
+        display:none;
+    }
+}

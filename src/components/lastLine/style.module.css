@@ -1,0 +1,58 @@
+.Container {
+    padding: 0px 184px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+
+.Container span:first-of-type {
+    font-family: "Rajdhani sem";
+}
+
+.Container span:last-of-type {
+    font-family: "Rajdhani sem";
+    line-height: 45px;
+    letter-spacing: 4px;
+    padding-left: 20px;
+    width: 214px;
+    text-align: center;
+    font-size: 19.23px;
+    background: #d0d0d0;
+    color: #393939;
+    border-bottom: 4px solid #4f5052;
+    padding-top: 5px;
+}
+
+.Arrow {
+    background-color: #000000;
+    color: #cccccc;
+    font-size: 19.23px;
+    position: relative;
+    width: 210px;
+    margin-right: 25px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 3.5px;
+}
+
+.Arrow::after {
+    position: absolute;
+    border: 26px solid transparent;
+    border-left: 17px solid #000000;
+    display: block;
+    width: 0;
+    height: 0;
+    content: "";
+    top: 0px;
+    right: -43px;
+}
+
+.LikeInput {
+    border: 1px solid #d0d0d0;
+    width: 381px;
+    text-align: center;
+    line-height: 51px;
+    letter-spacing: 1px;
+    font-size: 19.23px;
+    font-family: "Rajdhani";
+}

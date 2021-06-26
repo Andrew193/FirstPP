@@ -1,0 +1,90 @@
+.GalTitle {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 24.07px;
+    font-family: "Rajdhani";
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+.GalTitle::before {
+    position: absolute;
+    content: url("./img/seta_.png");
+    left: 36.4%;
+    top: -6%;
+}
+
+.GalTitle::after {
+    position: absolute;
+    top: -6%;
+    right: 36.8%;
+    content: url("./img/seta_2.png");
+}
+
+.GalTitle span {
+    margin-left: -5px;
+}
+
+.Gal {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 208px;
+    position: relative;
+}
+
+.Gal img {
+    margin-left: -2px;
+}
+
+.Price {
+    font-family: "Rajdhani";
+    font-size: 14.41px;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+
+
+.Active{
+    position: absolute;
+    height: 27px;
+    width: 101%;
+    background-color: #4f4e4d;
+    font-size: 16.34px;
+    font-family: "Rajdhani sem";
+    text-align: center;
+    color: #e7e7e7;
+    bottom: 23px;
+    left: -3px;
+    padding: 5px 52px;
+    letter-spacing: 3px;
+}
+
+.Gal>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.Gal>div:nth-child(2n) {
+    margin-right: 16px;
+}
+
+.Gal>div:nth-child(2n+1) {
+    margin-right: 17px;
+}
+
+.ArrowLeft {
+    position: absolute;
+    left: 11.6%;
+    top: 44%;
+}
+
+.ArrowRight {
+    position: absolute;
+    right: 11.6%;
+    top: 44%;
+}

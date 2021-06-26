@@ -1,0 +1,83 @@
+.Container {
+    height: 706px;
+    background: url("./img/Layer\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.TitleBlock {
+    position: absolute;
+    left: 15%;
+    top: 38%;
+}
+
+.TitleBlockTitle {
+    font-size: 34.87px;
+    font-family: "Rajdhani Medium";
+    padding: 0px 49px;
+    margin-bottom: 2px;
+    letter-spacing: 0.2px;
+}
+
+.TitleBlockTitle span:first-of-type {
+    font-family: "Rajdhani Bold";
+    margin-right: 9px;
+    margin-left: 2px;
+}
+
+.TitleBlockTitle span:last-of-type {
+    letter-spacing: 0.9px;
+}
+
+.TitleBlockTitle span:last-of-type::first-letter {
+    letter-spacing: 1px;
+}
+
+.TitleBlockButton {
+    font-size: 24.81px;
+    font-family: "Rajdhani Medium";
+    margin-top: 12.1%;
+    margin-left: 27%;
+    padding: 1px 12px 0px 12px;
+    letter-spacing: 0.5px;
+    background: #f8f7f3;
+    outline: none;
+    border: 2.2px solid #393939;
+}
+
+.TitleBlockParagraph {
+    font-size: 23.33px;
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    padding: 7px 23px 0px 23px;
+    letter-spacing: 0.8px;
+    border-top: 1px solid;
+}
+
+.CurrentImg {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    bottom: 3.3%;
+    left: 46.25%;
+}
+
+.CurrentImg li {
+    padding: 8px;
+    background: #ffffff;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.CurrentImg li:nth-child(3){
+    background: #221f1f;
+}
+
+@media (max-width:768px){
+    .Container{
+        background: url("./img/Layer\ 1t.png");
+        height: 456px;
+    }
+}

@@ -1,0 +1,55 @@
+.Container {
+    padding: 0px 184px;
+    margin-top: 50px;
+}
+
+.GalTitleSpec {
+    text-align: center;
+    font-size: 24.07px;
+    font-family: "Rajdhani";
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+.GalTitleSpec::before {
+    position: absolute;
+    content: url("./img/seta_.png");
+    left: 38.2%;
+    top: -6%;
+}
+
+.GalTitleSpec::after {
+    position: absolute;
+    content: url("./img/seta_2.png");
+    right: 38.2%;
+    top: -6%;
+}
+
+.Gal {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.Gal img {
+    vertical-align: bottom;
+}
+
+.Active {
+    position: relative;
+}
+
+.Active span {
+    font-size: 24.16px;
+    font-family: "Rajdhani sem";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: absolute;
+    letter-spacing: 0.8px;
+    left: 0;
+    padding-left: 75px;
+    background-color: #181819bd;
+    height: 100%;
+    width: 100%;
+    padding-top: 130px;
+}

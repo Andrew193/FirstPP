@@ -1,0 +1,74 @@
+.Container {
+    padding: 0px 184px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.LogoLine {
+    padding-left: 5px;
+}
+
+.Container>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.Cont:nth-child(2n) {
+    margin-top: 18px;
+}
+
+.Cont:nth-child(2n+1) {
+    margin-top: 22px;
+}
+
+
+.ImgContainer {
+    position: relative;
+}
+
+.ImgTitle {
+    font-size: 33.79px;
+    font-family: "Rajdhani sem";
+    position: absolute;
+    z-index: 10;
+    text-shadow: 0px 3px 2px #040405;
+    color: #ffffff;
+}
+
+.I5{
+    left: 155.6px;
+    bottom: 208.4px;
+    letter-spacing: 5px;
+}
+
+.I6{
+    left: 275.6px;
+    bottom: 208.4px;
+    letter-spacing: 5px;
+}
+
+.I4{
+    left: 133px;
+    bottom: 204px;
+    letter-spacing: 3px;
+}
+
+.I3{
+    left: 264px;
+    bottom: 203.6px;
+    letter-spacing: 6px;
+}
+
+.I2{
+    left: 236px;
+    bottom: 207px;
+    letter-spacing: 5px;
+}
+
+.I1{
+    left: 215px;
+    bottom: 206px;
+    letter-spacing: 3px;
+}

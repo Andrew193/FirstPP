@@ -1,0 +1,146 @@
+.MenuContainer {
+    position: absolute;
+    width: 603px;
+    overflow-y: auto;
+    height: 660px;
+    z-index: 10;
+    background-color: white;
+    left: 0;
+    top: 0;
+    max-height: 660px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.MenuContainer>div {
+    padding-left: 173px;
+}
+
+.Title {
+    background: black;
+    font-size: 20px;
+    font-family: "Rajdhani Medium";
+    padding-left: 185px!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    letter-spacing: 0.5px;
+}
+
+.Title img {
+    padding-right: 11px;
+    padding-bottom: 2.1px;
+}
+
+.Question {
+    background-color: #b1b1b1;
+    color: #bcbcbc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Question input {
+    background: white;
+    outline: none;
+    border: none;
+    width: 84%;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-family: "Rajdhani Medium";
+    letter-spacing: 0.9px;
+}
+
+.Item {
+    color: black;
+    font-size: 22px;
+    font-family: "Rajdhani Medium";
+    border-bottom: 1px solid #eaeaea;
+    line-height: 65px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.Item::after{
+    position: absolute;
+    content: "+";
+    font-family: "Rajdhani Medium";
+    font-size: 33px;
+    right: 27px;
+    top: 4px;
+}
+
+.Open::after{
+    position: absolute;
+    content: "-";
+    font-size: 63px;
+    top: 2px;
+}
+
+.Item span{
+    padding-left: 9px;
+    letter-spacing: 1px;
+}
+
+.SubItem {
+    background: black;
+    color: white;
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 22px;
+    font-family: "Rajdhani Medium";
+    height: 48px;
+    padding-top: 12px;
+    position: relative;
+}
+
+
+.SubItem::after{
+    content: url("../firstGal/img/iconSETA_2.png");
+    position: absolute;
+    right: 29px;
+    font-size: 26px;
+    top: 12px;
+}
+
+.SubItem span{
+    padding-left: 8px;
+    letter-spacing: 1px;
+}
+
+.Question img {
+    margin-right: 13px;
+    padding: 12px;
+    background: black;
+}
+
+.MenuContainer::-webkit-scrollbar-button {
+    width: 5px;
+    height: 0px
+}
+
+.MenuContainer::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+.MenuContainer::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #000000d4;
+}
+
+.MenuContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #000000;
+}
+
+.MenuContainer::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+.MenuContainer::-webkit-scrollbar {
+    width: 4px;
+}

@@ -1,0 +1,235 @@
+.NavLine{
+    height: 46px;
+    background: #000000;
+    padding: 0px 184px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    position: relative;
+}
+.NavLine h2{
+    font-family: "Rajdhani Bold";
+    font-size: 30px;
+    margin-left: 100px;
+    letter-spacing: -0.6px;
+}
+.NavLine h2 span{
+    letter-spacing: -1.9px;
+}
+
+.Items{
+    font-family: "Rajdhani Medium";
+    font-size: 26px;
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Cor{
+    position:absolute;
+    left: 76%;
+    z-index: 10;
+}
+
+.Count{
+    position: absolute;
+    z-index: 10;
+    top: -1%;
+    left: 70.5%;
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15.58px;
+    color: black;
+    text-align: center;
+    margin: 0.5px;
+}
+
+.Bag{
+    width: 600px;
+    height: 614px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    z-index: 2;
+    top: 46px;
+    position: absolute;
+    right: 0;
+}
+
+.Bag>div{
+    padding-bottom: 136px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.nameLine{
+    position: absolute;
+    background: black;
+    z-index: 2;
+    width: 100%;
+    height: 46px;
+    top: -46px;
+    color: #aaaaaa;
+    font-size: 20px;
+    font-family: "Rajdhani Medium";
+    line-height: 47px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.nameLine span{
+    letter-spacing: 2.1px;
+}
+
+
+.Item{
+    display: flex;
+    height: 118px;
+}
+
+.Item>div{
+    padding: 10px 14px;
+    width: 60.9%;
+}
+
+.ItemTitle{
+    font-size: 22px;
+    font-family: "Rajdhani sem";
+    color: #292929;
+    letter-spacing: 1.3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemTitle span:last-of-type{
+    padding: 0px 6px;
+    line-height: 22px;
+    height: fit-content;
+    border: 2px solid black;
+}
+
+.ItemColor{
+    background: black;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 1px;
+}
+
+.CountPrice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.ItemCount{
+    position: relative;
+    font-family: "Rajdhani";
+    font-size: 22px;
+    background: #d1d1d1;
+    color: #292929;
+    padding: 0px 9px;
+    margin-left: 34px;
+}
+
+.ItemCount::before{
+    position: absolute;
+    content: "-";
+    font-family: "Rajdhani sem";
+    font-size: 37px;
+    line-height: 20px;
+    padding: 0px 6px;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    left: -34px;
+    top: 1px;
+}
+
+.ItemCount::after{
+    position: absolute;
+    content: "+";
+    font-family: "Rajdhani sem";
+    font-size: 29px;
+    line-height: 20px;
+    padding: 0px 4px;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    right: -32px;
+    top: 1px;
+}
+
+.Price{
+    font-size: 22px;
+    font-family: "Rajdhani";
+    color: #292929;
+    letter-spacing: 1.1px;
+}
+
+.TotalPrice{
+    background: #dcdcdc;
+    color: #292929;
+    position: absolute;
+    width: 100%;
+    bottom: 14%;
+    padding: 11px 185px 11px 15px;
+    font-family: "Rajdhani";
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.TotalPrice span:first-of-type{
+    font-family: "Rajdhani sem";
+}
+
+.TotalPrice span:last-of-type{
+    letter-spacing: 1px;
+}
+
+.ConfirmLine{
+    background-color: black;
+    height: 85px;
+    position: absolute;
+    width: 100%;
+    top: 86.1%;
+    color: white;
+    font-family: "Rajdhani Bold";
+    display: flex;
+}
+
+.ConfirmLine span:first-of-type{
+    height: 100%;
+    display: inline-block;
+    width: 355px;
+    text-align: center;
+    padding-top: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-right: 15px;
+    font-size: 26px;
+    color: #b3b3b3;
+    background: white;
+}
+
+.ConfirmLine span:last-of-type{
+    width: 100%;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    padding-top: 26px;
+    padding-left: 19px;
+    position: relative;
+}
+
+.ConfirmLine span:last-of-type::after{
+    right: 48.9%;
+    position: absolute;
+    content: url("./img/iconSETA_2.png");
+    top: 32%;
+    line-height: 35px;
+}

@@ -1,0 +1,45 @@
+.Container {
+    margin-top: 65px;
+}
+
+.Gal {
+    display: flex;
+    padding: 0px 184px;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.Gal>span {
+    position: relative;
+}
+
+.Gal img {
+    vertical-align: bottom;
+}
+
+.Active {
+    background-color: #1e2022b5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.Active svg {
+    position: absolute;
+    left: 40.2%;
+    top: 32%;
+}
+
+.Active span {
+    font-family: "Rajdhani sem";
+    font-size: 24.16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.191;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 24%;
+    letter-spacing: 0.9px;
+}

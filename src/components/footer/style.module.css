@@ -1,0 +1,61 @@
+.Container{
+    height: 35px;
+    display: flex;
+    padding: 0px 184px;
+    background-color: #000000;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.Container ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.Container li{
+    font-family: "Rajdhani";
+    font-size: 15.38px;
+    color: #dddddd;
+    line-height: 33px;
+}
+
+.Container li:nth-child(1){
+    margin-left: 4px;
+    letter-spacing: 1px;
+    margin-right: 40px;
+}
+
+.Container li:nth-child(2){
+    letter-spacing: 1.3px;
+    margin-right: 29px;
+}
+
+.Container li:nth-child(3){
+    letter-spacing: 1.5px;
+    margin-left: 0px;
+    margin-right: 26px;
+}
+
+.Container li:nth-child(3) span{
+    margin-left: -4px;
+    letter-spacing: 1.46px;
+}
+
+.Container li:nth-child(4){
+    letter-spacing: 1.1px;
+}
+
+.Container li:nth-child(4) span{
+    letter-spacing: 1.5px;
+    padding-left: 2px;
+}
+
+.Container>span{
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.Container>span img:nth-child(2){
+    margin: 0px 11px;
+}
